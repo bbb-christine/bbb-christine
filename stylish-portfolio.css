@@ -1,0 +1,387 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.4 (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'italic arial';
+}
+
+a {
+  color: #8FBC8F;
+}
+
+a:hover, a:focus, a:active {
+  color: #155d74;
+}
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+
+Freedom from Mental Health
+.map iframe {
+  pointer-events: none;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width:85%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("img/shackles.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/shackles.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:40px; 
+  text color: ;
+      -webkit-tap-highlight-color: transparent;
+}
+
+
+.masthead h1 {
+  font-size: 6rem;
+  margin: 5;
+  padding: 0;
+}
+
+ .masthead h1 {
+    font-size: 5.5rem
+  }
+
+
+.text-faded {
+  color: #008080
+}
+.text-primary
+{color: #8FBC8F !important}
+.text-secondary
+{color: #2F4F4F !important; font-weight: 950}
+
+.bg-primary { background-color: #F0E68C !important; }
+
+.bg-third {backgrounnd-color: #008080 !important}
+
+.btn-primary {
+  background-color: #87CEFA !important;
+  border-color: #5F9EAO !important; color: 1D809F !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active
+{background-color: #155D74 !important; border-color: #155D74 !important; color: #E9967A;}
+.btn-secondary {
+background-color: #ECB807 !important; border-color: #ECB807 !important; color: #FFDEAD !important;
+}
+.btn-secondary: hover 
+.btn-dark
+.btn-light
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.topbar { float: left;
+  width: 100%; background-color: #BDB76B; font-family: serif; font-style: oblique; font-weight: 600;
+}
+.topbar ul {
+  overflow: hidden;  
+  position: sticky; 
+}
+.topbar li {
+Display: inline; float: left;
+}
+.topbar li a {
+  display: block; color:#CD5C5C;
+  text-align: center; padding: 14px 16px;
+  text-decoration: none;
+}
+.topbar li a:hover {
+  background-color:#FFF0F5;
+}
+
+.content-section {
+  padding-top: 6.5rem;
+  padding-bottom: 7.5rem; 
+  object-fit: fill; 
+}
+.content-section-heading h2 {
+  font-size: 3rem; color: #556B2F}
+
+.content-section-heading h3 {
+  font-size: 3rem;
+  text-transform: uppercase; color: #E9967A
+}
+.content-section-heading h1
+ { color: 556B2F;
+  font-weight: 700;
+  text-align: center;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: purple;
+}
+.scroll-to-top:hover {
+  background: #343a40;
+}
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+
+
+/* Side Menu */
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: burlywood;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #8B4513;
+  padding: 15px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(52, 58, 64, 0.1);
+  height: 95px;
+  line-height: 40px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #8B4513
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #FFEBCD;
+  background: none;
+}
+
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #556B2F;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:focus, .menu-toggle:hover {
+  color: #E9967A;
+}
+
+.menu-toggle:hover {
+  background: #343a40;
+}
+
+strong { color: #483D8B; font-weight: 600;}
+.service-icon {
+  color: darkorchid;
+  height: 10rem;
+  width: 10rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.service-icon.police {
+ background: url("img/police.jpg"); border-radius: 10px;
+}
+
+.service-icon.military {
+  background: url("img/military.jpg"); border-radius: 10px;
+}
+.service-icon.fireman { 
+  background: url("img/fireman.jpg"); border-radius: 10px}
+
+.service-icon.dv {
+  background: url("img/dv.jpg"); border-radius: 10px;
+}
+
+.callout {
+  padding:5rem 0;
+  /*background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url ("img/brainsparks.jpeg");*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/need help.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto; 
+}
+.callout h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 10rem; color:#556B2F;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+.portfolio-item .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.portfolio-item .caption .caption-content {
+  margin: auto 2rem 2rem;
+}
+.portfolio-item .caption .caption-content h2 {
+  font-size: 2.0rem; color: DDAODD;
+  text-transform: uppercase; font-weight: 650
+}
+.portfolio-item .caption .caption-content:hover{ color: chartreuse; font-weight: 500}
+
+.portfolio-item .caption .caption-content p {
+  font-weight:500; 
+  font-size: 1.5rem; color: purple;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(29, 128, 159, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #556B2F;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link: hover {
+  background-color: #E9967A;
+  text-decoration: none;
+}
+
+.class-WhoElse {
+  color: darkred; font font-style: oblique; font-weight: 600}
+
+
